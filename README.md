@@ -1,24 +1,22 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Dependencies
 
-Things you may want to cover:
+Ruby 3.2.2
+Sqlite 3
+Redis
 
-* Ruby version
+## Getting this running
 
-* System dependencies
+- clone
+- `bundle install`
+- `yarn install`
+- `rails db:migrate`
+- `rails db:seed`
+- (seperate terminal) - `redis-server`
 
-* Configuration
+This gets us pretty close.  We can use the accounts in the seeds file to login after this point, and you can see a list of challengers.
 
-* Database creation
+TODO
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- login/logout doesn't appear to be implemented

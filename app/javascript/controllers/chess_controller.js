@@ -1,7 +1,7 @@
 import { Controller } from "@hotwired/stimulus";
 import { Chess } from "chess.js";
 import Chessboard from "chessboardjs";
-import consumer from "../consumer";
+import consumer from "../channels/consumer";
 
 // Connects to data-controller="chess"
 export default class extends Controller {
